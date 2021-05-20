@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Details</title>
+<style>
+  body  
+  {
+	 background-color:windowframe;
+	 background-image: url("demo.jpg");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+  }
+
+button
+  {
+	margin-left:470px;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  }
+  form 
+  {
+  position:center;
+ 	margin-left:470px;
+  width:500px;
+  }
+
+  input[type=email],input[type=password]{
+    width: 100%;
+    margin:8px 0;
+    padding:12px 20px;
+    display:inline-block;
+    border:3px solid green;
+    box-sizing:border-box;
+  }
+  button:hover {   
+        opacity: 0.7;   
+    }   
+  .resetbutton{   
+        width: auto;   
+        padding: 8px 16px;  
+        margin: 8px 4px;  
+        background-color: rgba(255, 0, 0, 0.644);
+        border:1.7px solid black
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;  
+    }   
+</style>
+</head>
+<body>
+  <center> <h1> STUDENT DETAILS</h1> </center>   
+  <form>  
+      <div class="container">   
+          <label>Username : </label>   <br>
+          <input type="email" placeholder="Enter Your Email Id" name="username" required>  <br>
+          <label>Password : </label>   
+          <input type="password" placeholder="Enter Password" name="password" required>  
+          <button type="submit">Login</button>    
+          <button type="reset" class="resetbutton">Reset</button>   
+          Forgot <a href="https://www.google.com">password?</a>   
+      </div>   
+  </form>     
+</body>     
+</html>  
